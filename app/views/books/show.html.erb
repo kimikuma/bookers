@@ -3,5 +3,5 @@
 <span><%=@book.title %></span></p>
 <p><span>Body:</span>
 <span><%=@book.body %></span></p>
-<span class="link"><%= link_to "edit" %></span>
-<%= link_to "back",books_path %>
+<span class="link"><%= link_to "edit",edit_book_path(@book.id) %></span>
+<span class="link_to"><%= link_to "back",books_path %></span>

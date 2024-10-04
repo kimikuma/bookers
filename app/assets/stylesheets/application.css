@@ -21,6 +21,7 @@
 
  body{
    margin: 33px;
+   font-family: verdana, arial, helvetica, sans-serif;
  }
 
  p, th, td, ul{
@@ -29,12 +30,25 @@
  }
 
  h1, h2{
-   margin:10px;
+   margin:9px 0 ;
  }
 
  h1{
-   font-size:2em;
+   font-size:1.7em;
  }
+
+ h2{
+     font-size:18px;
+ }
+
+ h4{
+    font-size:15px;
+    padding-left: 15px;
+ }
+
+.text{
+    margin-bottom:10px;
+}
 
 th{
    padding:1px 1px 5px;
@@ -59,10 +73,32 @@ td{
 
 }
 
+.field{
+    font-size:13px;
+}
+
 .link{
   border-right: solid 1px black;
+  padding-right:7px;
+  font-size:13px;
+  color:black;
+}
+
+.link_to{
+    font-size:13px;
+    color:black;
 }
 
 .message{
   color:green;
+}
+
+
+
+input[type="submit" i] {
+    padding:3px;
+}
+
+.bookers{
+    font-weight: bold;
 }
